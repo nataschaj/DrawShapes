@@ -1,5 +1,5 @@
 # DrawShapes
-<H1>Download or clone the C# project DrawShapes.</H1>
+Download or clone the C# project DrawShapes.
 
 This exercise is about trying to draw some simple shapes on the screen, using for-loops to get the job done. A very simple class DrawingTool is provided to help with this.  
 
