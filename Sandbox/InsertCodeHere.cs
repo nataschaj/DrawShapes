@@ -17,16 +17,23 @@ namespace Sandbox
             {
                 drawer.DrawOneStar();
             }
-            Console.WriteLine("End of Shape A");
+            Console.WriteLine();
 
-            
+            Console.WriteLine("2. Shape B");
+            for (int i = 0; i < 5; i++)
+            {
+                drawer.DrawOneStar();
+                drawer.DrawOneSpace();
+            }
+            Console.WriteLine();
 
-
-            //2.Shape C
-
-            //2.Shape D
-
-            //2.Shape E
+            Console.WriteLine("2. Shape C");
+            for (int i = 0; i < 10; i++)
+            {
+                drawer.DrawOneStar();
+                drawer.StartNewLine();
+            }
+            Console.WriteLine();
 
             // The LAST line of code should be ABOVE this line
         }
