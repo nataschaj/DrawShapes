@@ -31,8 +31,9 @@ namespace Sandbox
             for (int i = 0; i < 10; i++)
             {
                 drawer.DrawOneStar();
-                drawer.StartNewLine();
+                
             }
+
             Console.WriteLine();
 
             // The LAST line of code should be ABOVE this line
