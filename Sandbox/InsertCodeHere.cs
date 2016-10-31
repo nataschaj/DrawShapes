@@ -30,10 +30,20 @@ namespace Sandbox
             Console.WriteLine("2. Shape C");
             for (int i = 0; i < 10; i++)
             {
-                drawer.DrawOneStar();
-                
+                for (int y = 0; y < 10; y++)
+                {
+                    drawer.DrawOneStar();
+                }
+                drawer.StartNewLine();
             }
+            Console.WriteLine();
 
+
+            Console.WriteLine("2. Shape D");
+            for (int i = 0; i < length; i++)
+            {
+
+            }
             Console.WriteLine();
 
             // The LAST line of code should be ABOVE this line
