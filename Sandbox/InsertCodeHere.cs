@@ -12,10 +12,21 @@ namespace Sandbox
 
 
             // YOUR JOB: Add code to draw shapes
-            for (int i = 0; i < length; i++)
+            Console.WriteLine("2. Shape A");
+            for (int i = 0; i < 10; i++)
             {
-
+                drawer.DrawOneStar();
             }
+            Console.WriteLine("End of Shape A");
+
+            
+
+
+            //2.Shape C
+
+            //2.Shape D
+
+            //2.Shape E
 
             // The LAST line of code should be ABOVE this line
         }
